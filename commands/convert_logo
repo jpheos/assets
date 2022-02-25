@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+rsvg-convert -h 1024 src/logo.svg > docs/logo-1024.png
+rsvg-convert -h 512 src/logo.svg > docs/logo-512.png
+rsvg-convert -h 256 src/logo.svg > docs/logo-256.png
+rsvg-convert -h 128 src/logo.svg > docs/logo-128.png
+rsvg-convert -h 64 src/logo.svg > docs/logo-64.png
+rsvg-convert -h 32 src/logo.svg > docs/logo-32.png
+rsvg-convert -h 16 src/logo.svg > docs/logo-16.png
